@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "0b069ebaf954fa2018dc5ad1103be7fb"
+build_time: [1512679511, 984918000]
+inputs:
+  "/Users/esharp2/Downloads/ClassifyingImageswithVisionandCoreML/Vision+ML Example/CGImagePropertyOrientation+UIImageOrientation.swift": [1507587574, 0]
+  "/Users/esharp2/Downloads/ClassifyingImageswithVisionandCoreML/Vision+ML Example/ImageClassificationViewController.swift": [1512679510, 0]
+  "/Users/esharp2/Downloads/ClassifyingImageswithVisionandCoreML/Vision+ML Example/AppDelegate.swift": [1507587574, 0]
+  "/Users/esharp2/Downloads/ClassifyingImageswithVisionandCoreML/Build/Intermediates/Vision+ML Example.build/Debug-iphoneos/Vision+ML Example.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1512679241, 0]
+  "/Users/esharp2/Downloads/ClassifyingImageswithVisionandCoreML/Build/Intermediates/Vision+ML Example.build/Debug-iphoneos/Vision+ML Example.build/DerivedSources/CoreMLGenerated/Keras_Plants/Keras_Plants.swift": [1512679306, 0]
