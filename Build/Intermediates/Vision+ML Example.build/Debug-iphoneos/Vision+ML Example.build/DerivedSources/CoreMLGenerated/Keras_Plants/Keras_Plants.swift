@@ -37,24 +37,31 @@ class Keras_PlantsInput : MLFeatureProvider {
 @available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *)
 class Keras_PlantsOutput : MLFeatureProvider {
 
-    /// output1 as 6 element vector of doubles
-    let output1: MLMultiArray
+    /// output1 as dictionary of strings to doubles
+    let output1: [String : Double]
+
+    /// classLabel as string value
+    let classLabel: String
     
     var featureNames: Set<String> {
         get {
-            return ["output1"]
+            return ["output1", "classLabel"]
         }
     }
     
     func featureValue(for featureName: String) -> MLFeatureValue? {
         if (featureName == "output1") {
-            return MLFeatureValue(multiArray: output1)
+            return try! MLFeatureValue(dictionary: output1 as [NSObject : NSNumber])
+        }
+        if (featureName == "classLabel") {
+            return MLFeatureValue(string: classLabel)
         }
         return nil
     }
     
-    init(output1: MLMultiArray) {
+    init(output1: [String : Double], classLabel: String) {
         self.output1 = output1
+        self.classLabel = classLabel
     }
 }
 
@@ -90,7 +97,7 @@ class Keras_Plants {
     */
     func prediction(input: Keras_PlantsInput) throws -> Keras_PlantsOutput {
         let outFeatures = try model.prediction(from: input)
-        let result = Keras_PlantsOutput(output1: outFeatures.featureValue(for: "output1")!.multiArrayValue!)
+        let result = Keras_PlantsOutput(output1: outFeatures.featureValue(for: "output1")!.dictionaryValue as! [String : Double], classLabel: outFeatures.featureValue(for: "classLabel")!.stringValue)
         return result
     }
 

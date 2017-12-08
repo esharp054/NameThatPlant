@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ayu-RK-7DL.nib</key>
 		<data>
-		XZ6nyLJ9rqQ46PRFuBAAgLSjzjg=
+		AI/Am4BlaqQXeI8vPGHBo2oC3A0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,19 +14,35 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		6onV35xk4+UjloO6cCPUDuUBWGU=
+		MIxkxGkNuxoYRjDQ8WVG0fpph8E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		oJ0v3hCg5E2bYhEzhOljG2F2PSQ=
+		BM3sl2WHb7I9AeJPX4qEUfSfOXE=
+		</data>
+		<key>Base.lproj/Main.storyboardc/CtD-jn-S5l-view-v5s-d9-VN8.nib</key>
+		<data>
+		rByUyBGXY/o+z15suOrVyJ26ows=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		MDrKFvFWroTb0+KEbQShBcoBvo4=
+		6uhi/1teok/AMnCSSDhMJf0rgF4=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Jq6-LO-YhC-view-hEr-7f-pLn.nib</key>
+		<data>
+		X4qAo2LOHdTBPtUQx/T00U3+uG8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		QUxvWnw/NXaXIcLXmy1YK1RoY6k=
+		nQdyLMtYHWaQl2Dz+QOsB1Q8CbM=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-CtD-jn-S5l.nib</key>
+		<data>
+		4Q8CMCh9SUehcI8Hw0lzJA5CK+w=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Jq6-LO-YhC.nib</key>
+		<data>
+		SVVxsjBrgO8r4YiSHQNzTQ2Ls9M=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -94,7 +110,7 @@
 		</data>
 		<key>Keras_Plants.mlmodelc/coremldata.bin</key>
 		<data>
-		vzXJFSCO8pJ9y4k7/ON20MpUtrY=
+		TY0wU5IqHqigsRUcyR4wsMhYVcs=
 		</data>
 		<key>Keras_Plants.mlmodelc/model.espresso.net</key>
 		<data>
@@ -106,7 +122,7 @@
 		</data>
 		<key>Keras_Plants.mlmodelc/model.espresso.weights</key>
 		<data>
-		12bpEPllCbvxS6pDP5DIbJmG6gA=
+		RWVGeBuizPVPUuvBburZ/5rtXNM=
 		</data>
 		<key>Keras_Plants.mlmodelc/model/coremldata.bin</key>
 		<data>
@@ -140,9 +156,33 @@
 		<data>
 		FiYHPdr9SughbLkIBJ75kFNwZE0=
 		</data>
+		<key>icons8-camera-50.png</key>
+		<data>
+		Z6cAxxvlNOsGQ+PiUeoAm3UqB54=
+		</data>
+		<key>icons8-farm-50.png</key>
+		<data>
+		bo92L+4vXVkBoqtLkFO9G61HLc4=
+		</data>
+		<key>icons8-leaf-50.png</key>
+		<data>
+		KCiCIEF2lK0a7xDkDieRR/Am5VQ=
+		</data>
+		<key>icons8-lotus-50.png</key>
+		<data>
+		/CL4Qroz3HS5NgmMWnMglH6o0XY=
+		</data>
+		<key>images.jpeg</key>
+		<data>
+		SKifBqS1vHY1A5Z7zEtPwkezZhw=
+		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		K2PY54BCIPj444NXL7MpOTLs5nI=
+		</data>
+		<key>logo.png</key>
+		<data>
+		SqhxPz56Qfvgo9t9q6ghX57gpk0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -151,11 +191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XZ6nyLJ9rqQ46PRFuBAAgLSjzjg=
+			AI/Am4BlaqQXeI8vPGHBo2oC3A0=
 			</data>
 			<key>hash2</key>
 			<data>
-			weZKD9RT2JpLeA2BfMO71VZfXj8Fu1JSrysXuiL9wBk=
+			QJIiTG16zuEQzg8IbZK24DGeY+m31Lj5uYqMMh7+GoY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -173,44 +213,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6onV35xk4+UjloO6cCPUDuUBWGU=
+			MIxkxGkNuxoYRjDQ8WVG0fpph8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			duQFpF2VDfcZd6ppPwv17A4lNbkFA/bNVUS087izSRk=
+			7jHivMtVVpsKqZJ4XqpEGFUIr9lgX57HSwj+iGlpqvs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oJ0v3hCg5E2bYhEzhOljG2F2PSQ=
+			BM3sl2WHb7I9AeJPX4qEUfSfOXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			c+2CZpLJ8y7dtt1CR9IF0714zIJukCl9x2gtrKS9Nmw=
+			LdoR8SXPVZGYKaOl/BQSmUKBYiGfr445F4OYNAvYwyA=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/CtD-jn-S5l-view-v5s-d9-VN8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rByUyBGXY/o+z15suOrVyJ26ows=
+			</data>
+			<key>hash2</key>
+			<data>
+			NIhIgxgMNamdMYxrGtyLlnW6qFhkDpiALR5aLV1ISGc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			6uhi/1teok/AMnCSSDhMJf0rgF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
+			bE9iusIxqD/ZVfnROc0fNhe6vJRw93rhnmj/pB3AJsw=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Jq6-LO-YhC-view-hEr-7f-pLn.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X4qAo2LOHdTBPtUQx/T00U3+uG8=
+			</data>
+			<key>hash2</key>
+			<data>
+			UhjOsx6GsAqZECzYiLW/VQ0h8UkSUF0tqHrw43X0fNY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QUxvWnw/NXaXIcLXmy1YK1RoY6k=
+			nQdyLMtYHWaQl2Dz+QOsB1Q8CbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			HuCphM99ExzwcXQyrWo3pvLaQCCBR7ckcyJpqD80iX8=
+			kRjIk35C9aTz16uicPv2EFAy3vspsJTiqAFIKRCdRfo=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-CtD-jn-S5l.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Q8CMCh9SUehcI8Hw0lzJA5CK+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			qTt/3zrDYgVgaEaB/8H/RUpUks1ZXANNLZXeWjdhEg8=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Jq6-LO-YhC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SVVxsjBrgO8r4YiSHQNzTQ2Ls9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			M9krq26z828RBv6Z5NWaM8Gv3G4BXWLexHeuJJ0UBAc=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -382,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vzXJFSCO8pJ9y4k7/ON20MpUtrY=
+			TY0wU5IqHqigsRUcyR4wsMhYVcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			p44ulNoktpMXWNTby3QfVUrkyZgiO44L6I/DuP+gH6o=
+			L3KegmyNE3Ri28O+OrQAFCmiJysxo60dhjiGz3aAOYE=
 			</data>
 		</dict>
 		<key>Keras_Plants.mlmodelc/model.espresso.net</key>
@@ -415,11 +499,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			12bpEPllCbvxS6pDP5DIbJmG6gA=
+			RWVGeBuizPVPUuvBburZ/5rtXNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			KsDCx5Q7h42/BmKfJDK52apDOPR7ChTBbdcS+ddmrNA=
+			h25l+BaLMg01JzcljkjO/mc2rBb8dZaZkdx2DizFvBU=
 			</data>
 		</dict>
 		<key>Keras_Plants.mlmodelc/model/coremldata.bin</key>
@@ -499,6 +583,61 @@
 			grVqG6sR79QE2aAOE5b1WjP7atnu3W93o2Rq1WMuSQQ=
 			</data>
 		</dict>
+		<key>icons8-camera-50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z6cAxxvlNOsGQ+PiUeoAm3UqB54=
+			</data>
+			<key>hash2</key>
+			<data>
+			HgJSsggI6QOHnJZHhI3GawxweqGS2uyUlLtstzwrdUE=
+			</data>
+		</dict>
+		<key>icons8-farm-50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bo92L+4vXVkBoqtLkFO9G61HLc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			OD9jJzlMSUEWRztD6iiSE9Ukmfyrnlw6UP3D0lX0OWE=
+			</data>
+		</dict>
+		<key>icons8-leaf-50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KCiCIEF2lK0a7xDkDieRR/Am5VQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			eZwTtOnuambF2L7vo5ble+fN9THgNRzULiVTuJGU2/c=
+			</data>
+		</dict>
+		<key>icons8-lotus-50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/CL4Qroz3HS5NgmMWnMglH6o0XY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZrOZn04Cg8t7OogfdrpIWvvtzB5Mb13kwrW6Fe1/ysw=
+			</data>
+		</dict>
+		<key>images.jpeg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SKifBqS1vHY1A5Z7zEtPwkezZhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			/yGZNdd/8jwl11u/25LVE0Dr4Dw0IofdhauzdXAk3Jo=
+			</data>
+		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -508,6 +647,17 @@
 			<key>hash2</key>
 			<data>
 			N1G9xYNCvhbQ666wDAtLVM/vIuhG9auGIjTvLKUMgMg=
+			</data>
+		</dict>
+		<key>logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SqhxPz56Qfvgo9t9q6ghX57gpk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			YzYs3sEJe8OmG2lp4GJ76dL15dmn+gHh1WFTidpcGcM=
 			</data>
 		</dict>
 	</dict>

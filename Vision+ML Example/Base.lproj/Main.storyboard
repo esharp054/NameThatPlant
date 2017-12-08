@@ -106,6 +106,9 @@
                                     </barButtonItem>
                                     <barButtonItem title="camera" image="icons8-camera-50.png" width="199" id="G07-Lo-OdR">
                                         <color key="tintColor" red="0.4039215686" green="0.56078431370000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="takePicture" destination="BYZ-38-t0r" id="Imh-QD-DRa"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem title="guides" image="icons8-farm-50.png" width="89" id="PLf-xT-kOl">
                                         <color key="tintColor" red="0.4039215686" green="0.56078431370000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -171,19 +174,34 @@
                                 </items>
                                 <color key="barTintColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k77-J6-bWv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Q7g-95-p49" secondAttribute="trailing" id="10X-0B-sdy"/>
+                            <constraint firstItem="k77-J6-bWv" firstAttribute="leading" secondItem="Q7g-95-p49" secondAttribute="leading" id="1mS-VQ-NmP"/>
+                            <constraint firstItem="k77-J6-bWv" firstAttribute="bottom" secondItem="Q7g-95-p49" secondAttribute="top" id="2y5-gn-hm2"/>
                             <constraint firstItem="Q7g-95-p49" firstAttribute="bottom" secondItem="E0m-Xi-jRN" secondAttribute="bottom" id="6KE-oR-CjD"/>
+                            <constraint firstItem="k77-J6-bWv" firstAttribute="top" secondItem="v5s-d9-VN8" secondAttribute="top" id="OBu-Ty-qnl"/>
+                            <constraint firstItem="k77-J6-bWv" firstAttribute="trailing" secondItem="Q7g-95-p49" secondAttribute="trailing" id="YRv-Nz-tLr"/>
                             <constraint firstItem="Q7g-95-p49" firstAttribute="leading" secondItem="v5s-d9-VN8" secondAttribute="leading" id="y1z-d5-jQW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E0m-Xi-jRN"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="k77-J6-bWv" id="2dA-tI-Zsr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DFI-f4-JAS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-136" y="1054"/>
+            <point key="canvasLocation" x="-136.80000000000001" y="1053.8230884557722"/>
         </scene>
     </scenes>
     <resources>
@@ -193,8 +211,8 @@
         <image name="logo.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A1b-E9-ba6"/>
+        <segue reference="rtL-zP-DAt"/>
         <segue reference="AEP-d7-vjb"/>
-        <segue reference="ZGE-E8-C3v"/>
+        <segue reference="Pu7-0z-cjK"/>
     </inferredMetricsTieBreakers>
 </document>
