@@ -1,9 +1,12 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "MyVariables"
 - "ImageClassificationViewController"
 provides-nominal:
+- "17Vision_ML_Example11MyVariablesV"
 - "17Vision_ML_Example33ImageClassificationViewControllerC"
 provides-member:
+- ["17Vision_ML_Example11MyVariablesV", ""]
 - ["17Vision_ML_Example33ImageClassificationViewControllerC", ""]
 provides-dynamic-lookup:
 - "cameraButton"
@@ -12,6 +15,8 @@ provides-dynamic-lookup:
 - "imageView"
 - "takePicture"
 depends-top-level:
+- !private "+"
+- !private "AnyObject"
 - "Array"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
@@ -22,6 +27,7 @@ depends-top-level:
 - "Error"
 - "ImageClassificationViewController"
 - !private "Keras_Plants"
+- "MyVariables"
 - "String"
 - "StringLiteralType"
 - !private "UIAlertAction"
@@ -44,7 +50,18 @@ depends-top-level:
 - !private "fatalError"
 - !private "print"
 depends-member:
-- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "prefix"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "map"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "image"]
 - !private ["So15CALayerDelegateP", "text"]
@@ -54,6 +71,8 @@ depends-member:
 - !private ["s7CVarArgP", "CIImage"]
 - !private ["s7CVarArgP", "DispatchQueue"]
 - !private ["s7CVarArgP", "Keras_Plants"]
+- !private ["s7CVarArgP", "MyVariables"]
+- !private ["s7CVarArgP", "String"]
 - !private ["s7CVarArgP", "UIAlertAction"]
 - !private ["s7CVarArgP", "UIAlertController"]
 - !private ["s7CVarArgP", "UIImagePickerController"]
@@ -75,13 +94,17 @@ depends-member:
 - ["s7CVarArgP", "imagePickerController"]
 - ["s7CVarArgP", "imagePickerControllerDidCancel"]
 - !private ["s7CVarArgP", "imageView"]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "isSourceTypeAvailable"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "lowercased"]
 - !private ["s7CVarArgP", "main"]
 - ["s7CVarArgP", "navigationController"]
 - ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "prefix"]
 - !private ["s7CVarArgP", "present"]
 - !private ["s7CVarArgP", "presentPhotoPicker"]
 - !private ["s7CVarArgP", "print"]
@@ -92,13 +115,21 @@ depends-member:
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "updateClassifications"]
 - ["s7CVarArgP", ""]
-- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "prefix"]
 - !private ["s10CollectionP", "subscript"]
-- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
 - !private ["s28CustomDebugStringConvertibleP", "CGImagePropertyOrientation"]
 - !private ["s28CustomDebugStringConvertibleP", "CIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "Keras_Plants"]
+- !private ["s28CustomDebugStringConvertibleP", "MyVariables"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
@@ -120,13 +151,18 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "imagePickerController"]
 - ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
 - !private ["s28CustomDebugStringConvertibleP", "imageView"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "isSourceTypeAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
 - ["s28CustomDebugStringConvertibleP", "navigationController"]
 - ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
 - !private ["s28CustomDebugStringConvertibleP", "presentPhotoPicker"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
@@ -138,14 +174,22 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "updateClassifications"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
-- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "CGImagePropertyOrientation"]
 - !private ["s23CustomStringConvertibleP", "CIImage"]
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
 - !private ["s23CustomStringConvertibleP", "Keras_Plants"]
+- !private ["s23CustomStringConvertibleP", "MyVariables"]
+- !private ["s23CustomStringConvertibleP", "String"]
 - !private ["s23CustomStringConvertibleP", "UIAlertAction"]
 - !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - !private ["s23CustomStringConvertibleP", "UIImagePickerController"]
@@ -168,13 +212,18 @@ depends-member:
 - ["s23CustomStringConvertibleP", "imagePickerController"]
 - ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
 - !private ["s23CustomStringConvertibleP", "imageView"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "isSourceTypeAvailable"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
 - !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
 - ["s23CustomStringConvertibleP", "navigationController"]
 - ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
 - !private ["s23CustomStringConvertibleP", "present"]
 - !private ["s23CustomStringConvertibleP", "presentPhotoPicker"]
 - !private ["s23CustomStringConvertibleP", "print"]
@@ -186,7 +235,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "updateClassifications"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "prefix"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s10DictionaryV", "subscript"]
 - !private ["So14DispatchObjectC", "async"]
@@ -196,12 +249,18 @@ depends-member:
 - !private ["So13DispatchQueueC", "global"]
 - !private ["So13DispatchQueueC", "main"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "prefix"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "CGImagePropertyOrientation"]
 - !private ["s9EquatableP", "CIImage"]
 - !private ["s9EquatableP", "DispatchQueue"]
 - !private ["s9EquatableP", "Keras_Plants"]
+- !private ["s9EquatableP", "MyVariables"]
+- !private ["s9EquatableP", "String"]
 - !private ["s9EquatableP", "UIAlertAction"]
 - !private ["s9EquatableP", "UIAlertController"]
 - !private ["s9EquatableP", "UIImagePickerController"]
@@ -228,8 +287,9 @@ depends-member:
 - ["s9EquatableP", "imagePickerController"]
 - ["s9EquatableP", "imagePickerControllerDidCancel"]
 - !private ["s9EquatableP", "imageView"]
-- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isSourceTypeAvailable"]
+- !private ["s9EquatableP", "lowercased"]
 - !private ["s9EquatableP", "main"]
 - ["s9EquatableP", "navigationController"]
 - ["s9EquatableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -247,15 +307,25 @@ depends-member:
 - !private ["s9EquatableP", "userInitiated"]
 - ["s9EquatableP", ""]
 - !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
 - !private ["s8HashableP", "CGImagePropertyOrientation"]
 - !private ["s8HashableP", "CIImage"]
 - !private ["s8HashableP", "DispatchQueue"]
 - !private ["s8HashableP", "Keras_Plants"]
+- !private ["s8HashableP", "MyVariables"]
+- !private ["s8HashableP", "String"]
 - !private ["s8HashableP", "UIAlertAction"]
 - !private ["s8HashableP", "UIAlertController"]
 - !private ["s8HashableP", "UIImagePickerController"]
@@ -282,8 +352,9 @@ depends-member:
 - ["s8HashableP", "imagePickerController"]
 - ["s8HashableP", "imagePickerControllerDidCancel"]
 - !private ["s8HashableP", "imageView"]
-- !private ["s8HashableP", "init"]
+- ["s8HashableP", "init"]
 - !private ["s8HashableP", "isSourceTypeAvailable"]
+- !private ["s8HashableP", "lowercased"]
 - !private ["s8HashableP", "main"]
 - ["s8HashableP", "navigationController"]
 - ["s8HashableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -300,11 +371,13 @@ depends-member:
 - !private ["s8HashableP", "updateClassifications"]
 - !private ["s8HashableP", "userInitiated"]
 - ["s8HashableP", ""]
+- !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "AnyObject"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "CGImagePropertyOrientation"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "CIImage"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "DispatchQueue"]
 - ["17Vision_ML_Example33ImageClassificationViewControllerC", "Error"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "Keras_Plants"]
+- !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "MyVariables"]
 - ["17Vision_ML_Example33ImageClassificationViewControllerC", "String"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "UIAlertAction"]
 - !private ["17Vision_ML_Example33ImageClassificationViewControllerC", "UIAlertController"]
@@ -341,12 +414,23 @@ depends-member:
 - !private ["17Vision_ML_Example12Keras_PlantsC", "init"]
 - !private ["17Vision_ML_Example12Keras_PlantsC", "model"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "prefix"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["17Vision_ML_Example11MyVariablesV", "init"]
+- ["17Vision_ML_Example11MyVariablesV", "plantToSearch"]
 - !private ["So8NSCodingP", "CGImagePropertyOrientation"]
 - !private ["So8NSCodingP", "CIImage"]
 - !private ["So8NSCodingP", "DispatchQueue"]
 - !private ["So8NSCodingP", "Keras_Plants"]
+- !private ["So8NSCodingP", "MyVariables"]
+- !private ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "UIAlertAction"]
 - !private ["So8NSCodingP", "UIAlertController"]
 - !private ["So8NSCodingP", "UIImagePickerController"]
@@ -365,8 +449,9 @@ depends-member:
 - ["So8NSCodingP", "imagePickerController"]
 - ["So8NSCodingP", "imagePickerControllerDidCancel"]
 - !private ["So8NSCodingP", "imageView"]
-- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isSourceTypeAvailable"]
+- !private ["So8NSCodingP", "lowercased"]
 - ["So8NSCodingP", "navigationController"]
 - ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
@@ -379,12 +464,15 @@ depends-member:
 - !private ["So8NSCodingP", "updateClassifications"]
 - ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "imageCropAndScaleOption"]
-- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lowercased"]
 - !private ["So9NSCopyingP", "results"]
 - !private ["So26NSExtensionRequestHandlingP", "CGImagePropertyOrientation"]
 - !private ["So26NSExtensionRequestHandlingP", "CIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
 - !private ["So26NSExtensionRequestHandlingP", "Keras_Plants"]
+- !private ["So26NSExtensionRequestHandlingP", "MyVariables"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
@@ -414,15 +502,20 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "updateClassifications"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "imageOrientation"]
-- !private ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
 - !private ["So21NSItemProviderWritingP", "imageOrientation"]
-- !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "AnyObject"]
 - !private ["So8NSObjectC", "CGImagePropertyOrientation"]
 - !private ["So8NSObjectC", "CIImage"]
 - !private ["So8NSObjectC", "DispatchQueue"]
 - ["So8NSObjectC", "Error"]
 - !private ["So8NSObjectC", "Keras_Plants"]
+- !private ["So8NSObjectC", "MyVariables"]
 - ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
@@ -455,6 +548,7 @@ depends-member:
 - ["So8NSObjectC", "imageView"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isSourceTypeAvailable"]
+- !private ["So8NSObjectC", "lowercased"]
 - !private ["So8NSObjectC", "main"]
 - ["So8NSObjectC", "navigationController"]
 - ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -473,6 +567,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "CIImage"]
 - !private ["So16NSObjectProtocolP", "DispatchQueue"]
 - !private ["So16NSObjectProtocolP", "Keras_Plants"]
+- !private ["So16NSObjectProtocolP", "MyVariables"]
+- !private ["So16NSObjectProtocolP", "String"]
 - !private ["So16NSObjectProtocolP", "UIAlertAction"]
 - !private ["So16NSObjectProtocolP", "UIAlertController"]
 - !private ["So16NSObjectProtocolP", "UIImagePickerController"]
@@ -494,8 +590,9 @@ depends-member:
 - ["So16NSObjectProtocolP", "imagePickerController"]
 - ["So16NSObjectProtocolP", "imagePickerControllerDidCancel"]
 - !private ["So16NSObjectProtocolP", "imageView"]
-- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "isSourceTypeAvailable"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
 - !private ["So16NSObjectProtocolP", "main"]
 - ["So16NSObjectProtocolP", "navigationController"]
 - ["So16NSObjectProtocolP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -511,26 +608,48 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "updateClassifications"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "imageOrientation"]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "lowercased"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "global"]
 - !private ["So9OS_objectC", "main"]
 - !private ["8Dispatch0A3QoSV0B6SClassO", "userInitiated"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "prefix"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "prefix"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["s16RawRepresentableP", "camera"]
 - !private ["s16RawRepresentableP", "cancel"]
 - !private ["s16RawRepresentableP", "centerCrop"]
 - !private ["s16RawRepresentableP", "default"]
 - !private ["s16RawRepresentableP", "init"]
 - !private ["s16RawRepresentableP", "photoLibrary"]
-- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "prefix"]
 - !private ["s8SequenceP", "subscript"]
 - !private ["s12StaticStringV", "init"]
-- !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
+- ["SS", "init"]
+- !private ["SS", "lowercased"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "imageOrientation"]
@@ -546,6 +665,8 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "CIImage"]
 - !private ["So21UIAppearanceContainerP", "DispatchQueue"]
 - !private ["So21UIAppearanceContainerP", "Keras_Plants"]
+- !private ["So21UIAppearanceContainerP", "MyVariables"]
+- !private ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "UIAlertAction"]
 - !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - !private ["So21UIAppearanceContainerP", "UIImagePickerController"]
@@ -580,6 +701,8 @@ depends-member:
 - !private ["So18UIContentContainerP", "CIImage"]
 - !private ["So18UIContentContainerP", "DispatchQueue"]
 - !private ["So18UIContentContainerP", "Keras_Plants"]
+- !private ["So18UIContentContainerP", "MyVariables"]
+- !private ["So18UIContentContainerP", "String"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
 - !private ["So18UIContentContainerP", "UIImagePickerController"]
@@ -617,6 +740,8 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "CIImage"]
 - !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
 - !private ["So18UIFocusEnvironmentP", "Keras_Plants"]
+- !private ["So18UIFocusEnvironmentP", "MyVariables"]
+- !private ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - !private ["So18UIFocusEnvironmentP", "UIImagePickerController"]
@@ -659,6 +784,8 @@ depends-member:
 - !private ["So31UIImagePickerControllerDelegateP", "CIImage"]
 - !private ["So31UIImagePickerControllerDelegateP", "DispatchQueue"]
 - !private ["So31UIImagePickerControllerDelegateP", "Keras_Plants"]
+- !private ["So31UIImagePickerControllerDelegateP", "MyVariables"]
+- !private ["So31UIImagePickerControllerDelegateP", "String"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIAlertAction"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIAlertController"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIImagePickerController"]
@@ -695,6 +822,8 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "CIImage"]
 - !private ["So30UINavigationControllerDelegateP", "DispatchQueue"]
 - !private ["So30UINavigationControllerDelegateP", "Keras_Plants"]
+- !private ["So30UINavigationControllerDelegateP", "MyVariables"]
+- !private ["So30UINavigationControllerDelegateP", "String"]
 - !private ["So30UINavigationControllerDelegateP", "UIAlertAction"]
 - !private ["So30UINavigationControllerDelegateP", "UIAlertController"]
 - !private ["So30UINavigationControllerDelegateP", "UIImagePickerController"]
@@ -721,6 +850,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "CIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
 - !private ["So30UIPasteConfigurationSupportingP", "Keras_Plants"]
+- !private ["So30UIPasteConfigurationSupportingP", "MyVariables"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
@@ -751,11 +882,13 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "updateClassifications"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "CGImagePropertyOrientation"]
 - !private ["So11UIResponderC", "CIImage"]
 - !private ["So11UIResponderC", "DispatchQueue"]
 - ["So11UIResponderC", "Error"]
 - !private ["So11UIResponderC", "Keras_Plants"]
+- !private ["So11UIResponderC", "MyVariables"]
 - ["So11UIResponderC", "String"]
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
@@ -799,6 +932,8 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "CIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
 - !private ["So30UIResponderStandardEditActionsP", "Keras_Plants"]
+- !private ["So30UIResponderStandardEditActionsP", "MyVariables"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
@@ -835,6 +970,8 @@ depends-member:
 - !private ["So16UIStateRestoringP", "CIImage"]
 - !private ["So16UIStateRestoringP", "DispatchQueue"]
 - !private ["So16UIStateRestoringP", "Keras_Plants"]
+- !private ["So16UIStateRestoringP", "MyVariables"]
+- !private ["So16UIStateRestoringP", "String"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
 - !private ["So16UIStateRestoringP", "UIAlertController"]
 - !private ["So16UIStateRestoringP", "UIImagePickerController"]
@@ -867,6 +1004,8 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "CIImage"]
 - !private ["So18UITraitEnvironmentP", "DispatchQueue"]
 - !private ["So18UITraitEnvironmentP", "Keras_Plants"]
+- !private ["So18UITraitEnvironmentP", "MyVariables"]
+- !private ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "UIAlertAction"]
 - !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - !private ["So18UITraitEnvironmentP", "UIImagePickerController"]
@@ -899,11 +1038,13 @@ depends-member:
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "image"]
 - !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AnyObject"]
 - !private ["So16UIViewControllerC", "CGImagePropertyOrientation"]
 - !private ["So16UIViewControllerC", "CIImage"]
 - !private ["So16UIViewControllerC", "DispatchQueue"]
 - ["So16UIViewControllerC", "Error"]
 - !private ["So16UIViewControllerC", "Keras_Plants"]
+- !private ["So16UIViewControllerC", "MyVariables"]
 - ["So16UIViewControllerC", "String"]
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
@@ -953,25 +1094,59 @@ depends-member:
 - !private ["So9VNRequestC", "imageCropAndScaleOption"]
 - !private ["So9VNRequestC", "init"]
 - !private ["So9VNRequestC", "results"]
-- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "prefix"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "joined"]
+- !private ["s23_BidirectionalIndexableP", "lowercased"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "prefix"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
 - !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "joined"]
+- !private ["s10_IndexableP", "lowercased"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "prefix"]
 - !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "joined"]
+- !private ["s14_IndexableBaseP", "lowercased"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "prefix"]
 - !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGImagePropertyOrientation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Keras_Plants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MyVariables"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
@@ -993,8 +1168,9 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isSourceTypeAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
@@ -1009,61 +1185,88 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateClassifications"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "isEmpty"]
+- !private ["s17_MutableIndexableP", "joined"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s17_MutableIndexableP", "prefix"]
+- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s22_RandomAccessIndexableP", "isEmpty"]
+- !private ["s22_RandomAccessIndexableP", "joined"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "prefix"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "joined"]
+- !private ["s26_RangeReplaceableIndexableP", "lowercased"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "prefix"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
 depends-nominal:
-- !private "s23BidirectionalCollectionP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - !private "SC26CGImagePropertyOrientationO"
 - !private "So7CIImageC"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- "s10CollectionP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
-- !private "s17CustomReflectableP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- "s9DecodableP"
 - !private "s10DictionaryV"
 - !private "So14DispatchObjectC"
 - !private "So13DispatchQueueC"
-- !private "s9EncodableP"
+- "s9EncodableP"
 - "s9EquatableP"
 - !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
 - "17Vision_ML_Example33ImageClassificationViewControllerC"
 - !private "17Vision_ML_Example12Keras_PlantsC"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "17Vision_ML_Example11MyVariablesV"
 - "So8NSCodingP"
-- !private "So9NSCopyingP"
+- "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
 - !private "So9OS_objectC"
 - !private "8Dispatch0A3QoSV0B6SClassO"
-- !private "s26RangeReplaceableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
-- !private "s8SequenceP"
+- "s8SequenceP"
 - !private "s12StaticStringV"
-- !private "SS"
-- !private "s14StringProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So13UIAlertActionC"
@@ -1100,23 +1303,28 @@ depends-nominal:
 - !private "SC25VNImageCropAndScaleOptionO"
 - !private "So21VNImageRequestHandlerC"
 - !private "So9VNRequestC"
-- !private "s23_BidirectionalIndexableP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s21_ObjectiveCBridgeableP"
-- !private "s26_RangeReplaceableIndexableP"
-- !private "s16_SwiftStringViewP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
+- !private "identifier"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
@@ -1133,4 +1341,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "44e0339b8b50855986cd2b0f833dd36e"
+interface-hash: "d059f3339a5f49353da005d77ccd5e1f"

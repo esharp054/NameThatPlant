@@ -5,6 +5,10 @@ Abstract:
 View controller for selecting images and applying Vision + Core ML processing.
 */
 
+struct MyVariables {
+    static var plantToSearch = ""
+}
+
 import UIKit
 import CoreML
 import Vision
@@ -70,19 +74,21 @@ class ImageClassificationViewController: UIViewController {
                 return
             }
             // The `results` will always be `VNClassificationObservation`s, as specified by the Core ML model in this project.
-//            let classifications = results
-//
-//            if classifications.isEmpty {
-//                self.classificationLabel.text = "Nothing recognized."
-//            } else {
-//                // Display top classifications ranked by confidence in the UI.
-//                let topClassifications = classifications.prefix(2)
-//                let descriptions = topClassifications.map { classification in
-//                    // Formats the classification for display; e.g. "(0.37) cliff, drop, drop-off".
-//                   return String(format: "  (%.2f) %@", classification.confidence, classification.identifier)
-//                }
-//                self.classificationLabel.text = "Classification:\n" + descriptions.joined(separator: "\n")
-//            }
+            let classifications = results
+
+            if classifications.isEmpty {
+                self.classificationLabel.text = "Nothing recognized."
+                MyVariables.plantToSearch = ""
+            } else {
+                // Display top classifications ranked by confidence in the UI.
+                let topClassifications = classifications.prefix(2)
+                let descriptions = topClassifications.map { classification in
+                    // Formats the classification for display; e.g. "(0.37) cliff, drop, drop-off".
+                    return String(format: "%@", (classification as AnyObject).identifier)
+                }
+                self.classificationLabel.text = "Classification:\n" + descriptions.joined(separator: "\n")
+                MyVariables.plantToSearch = descriptions[0].lowercased()
+            }
             print(results)
         }
     }

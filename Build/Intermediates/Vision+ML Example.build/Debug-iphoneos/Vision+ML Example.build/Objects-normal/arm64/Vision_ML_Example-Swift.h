@@ -173,6 +173,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import WebKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -192,11 +193,29 @@ SWIFT_CLASS("_TtC17Vision_ML_Example11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WKWebView;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC17Vision_ML_Example14GuidePageScene")
+@interface GuidePageScene : UIViewController <WKNavigationDelegate>
+@property (nonatomic, strong) IBOutlet WKWebView * _Null_unspecified webView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC17Vision_ML_Example13HomePageScene")
+@interface HomePageScene : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIImageView;
 @class UIBarButtonItem;
 @class UILabel;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC17Vision_ML_Example33ImageClassificationViewController")
 @interface ImageClassificationViewController : UIViewController
