@@ -22,7 +22,6 @@
 		F7B13DF91FDA6600000A8DD5 /* icons8-farm-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */; };
 		F7B13DFB1FDA6600000A8DD5 /* icons8-camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */; };
 		F7B13DFC1FDA6600000A8DD5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF71FDA6600000A8DD5 /* logo.png */; };
-		F7B13E051FDA660E000A8DD5 /* succulent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */; };
 		F7B13E0E1FDA6640000A8DD5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,18 +35,16 @@
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C677E80A6502812D4A86D00 /* SampleCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = Model/MobileNet.mlmodel; sourceTree = "<group>"; };
 		E45229D9817DFC3DAEB1C4CE /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		F79A01D91FDA71CE00B4BE1F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = SOURCE_ROOT; };
-		F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-leaf-50.png"; sourceTree = SOURCE_ROOT; };
+		F79A01D91FDA71CE00B4BE1F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = "Vision+ML Example/images.jpeg"; sourceTree = SOURCE_ROOT; };
+		F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-leaf-50.png"; path = "Vision+ML Example/icons8-leaf-50.png"; sourceTree = SOURCE_ROOT; };
 		F79A01DF1FDA7DDB00B4BE1F /* GuidePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePageViewController.swift; sourceTree = "<group>"; };
 		F7B13DF11FDA65F2000A8DD5 /* Keras_Plants.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Keras_Plants.mlmodel; sourceTree = SOURCE_ROOT; };
-		F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-lotus-50.png"; sourceTree = SOURCE_ROOT; };
-		F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-farm-50.png"; sourceTree = SOURCE_ROOT; };
-		F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-camera-50.png"; sourceTree = SOURCE_ROOT; };
-		F7B13DF71FDA6600000A8DD5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
-		F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = succulent.jpeg; sourceTree = SOURCE_ROOT; };
+		F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-lotus-50.png"; path = "Vision+ML Example/icons8-lotus-50.png"; sourceTree = SOURCE_ROOT; };
+		F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-farm-50.png"; path = "Vision+ML Example/icons8-farm-50.png"; sourceTree = SOURCE_ROOT; };
+		F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-camera-50.png"; path = "Vision+ML Example/icons8-camera-50.png"; sourceTree = SOURCE_ROOT; };
+		F7B13DF71FDA6600000A8DD5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Vision+ML Example/logo.png"; sourceTree = SOURCE_ROOT; };
 		F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +62,6 @@
 		11063F551EC0EECC0033EE6D = {
 			isa = PBXGroup;
 			children = (
-				C858E5CC1ECA99CC006C5CAA /* README.md */,
 				11063F601EC0EECC0033EE6D /* Vision+ML Example */,
 				11063F5F1EC0EECC0033EE6D /* Products */,
 				C416778AB5E104BFCF4B5285 /* Configuration */,
@@ -89,16 +85,15 @@
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
 				F7B13DF11FDA65F2000A8DD5 /* Keras_Plants.mlmodel */,
-				F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */,
 				F79A01DF1FDA7DDB00B4BE1F /* GuidePageViewController.swift */,
+				F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */,
 				F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */,
 				F79A01D91FDA71CE00B4BE1F /* images.jpeg */,
 				F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */,
-				F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */,
 				F7B13DF71FDA6600000A8DD5 /* logo.png */,
-				11063F651EC0EECC0033EE6D /* Main.storyboard */,
 				F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */,
-				F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */,
+				F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */,
+				11063F651EC0EECC0033EE6D /* Main.storyboard */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
 			);
 			path = "Vision+ML Example";
@@ -195,7 +190,6 @@
 				F79A01DA1FDA71CE00B4BE1F /* images.jpeg in Resources */,
 				F7B13DFC1FDA6600000A8DD5 /* logo.png in Resources */,
 				F7B13DFB1FDA6600000A8DD5 /* icons8-camera-50.png in Resources */,
-				F7B13E051FDA660E000A8DD5 /* succulent.jpeg in Resources */,
 				F7B13DF91FDA6600000A8DD5 /* icons8-farm-50.png in Resources */,
 				F79A01DE1FDA76DE00B4BE1F /* icons8-leaf-50.png in Resources */,
 			);
