@@ -15,7 +15,7 @@ class HomePageScene: UIViewController {
         super.viewDidLoad();
         
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "empty.jpeg")
+        backgroundImage.image = UIImage(named: "images.jpeg")
         self.view.insertSubview(backgroundImage, at: 0)
     }
     

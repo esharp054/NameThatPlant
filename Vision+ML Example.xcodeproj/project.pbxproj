@@ -14,20 +14,15 @@
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
 		C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */; };
+		F79A01DA1FDA71CE00B4BE1F /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F79A01D91FDA71CE00B4BE1F /* images.jpeg */; };
+		F79A01DE1FDA76DE00B4BE1F /* icons8-leaf-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */; };
+		F79A01E01FDA7DDB00B4BE1F /* GuidePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A01DF1FDA7DDB00B4BE1F /* GuidePageViewController.swift */; };
 		F7B13DF21FDA65F2000A8DD5 /* Keras_Plants.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F7B13DF11FDA65F2000A8DD5 /* Keras_Plants.mlmodel */; };
 		F7B13DF81FDA6600000A8DD5 /* icons8-lotus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */; };
 		F7B13DF91FDA6600000A8DD5 /* icons8-farm-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */; };
-		F7B13DFA1FDA6600000A8DD5 /* icons8-compost-heap-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF51FDA6600000A8DD5 /* icons8-compost-heap-50.png */; };
 		F7B13DFB1FDA6600000A8DD5 /* icons8-camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */; };
 		F7B13DFC1FDA6600000A8DD5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DF71FDA6600000A8DD5 /* logo.png */; };
-		F7B13E031FDA660E000A8DD5 /* plant1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DFD1FDA660D000A8DD5 /* plant1.jpeg */; };
-		F7B13E041FDA660E000A8DD5 /* plant4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DFE1FDA660D000A8DD5 /* plant4.jpeg */; };
 		F7B13E051FDA660E000A8DD5 /* succulent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */; };
-		F7B13E061FDA660E000A8DD5 /* plant2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13E001FDA660D000A8DD5 /* plant2.jpeg */; };
-		F7B13E071FDA660E000A8DD5 /* plant3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13E011FDA660D000A8DD5 /* plant3.jpeg */; };
-		F7B13E081FDA660E000A8DD5 /* Vision+ML Example in Resources */ = {isa = PBXBuildFile; fileRef = F7B13E021FDA660E000A8DD5 /* Vision+ML Example */; };
-		F7B13E0B1FDA6627000A8DD5 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B13E091FDA6627000A8DD5 /* home.png */; };
-		F7B13E0C1FDA6627000A8DD5 /* empty.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7B13E0A1FDA6627000A8DD5 /* empty.jpeg */; };
 		F7B13E0E1FDA6640000A8DD5 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,20 +39,15 @@
 		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = Model/MobileNet.mlmodel; sourceTree = "<group>"; };
 		E45229D9817DFC3DAEB1C4CE /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F79A01D91FDA71CE00B4BE1F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = SOURCE_ROOT; };
+		F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-leaf-50.png"; sourceTree = SOURCE_ROOT; };
+		F79A01DF1FDA7DDB00B4BE1F /* GuidePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePageViewController.swift; sourceTree = "<group>"; };
 		F7B13DF11FDA65F2000A8DD5 /* Keras_Plants.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Keras_Plants.mlmodel; sourceTree = SOURCE_ROOT; };
 		F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-lotus-50.png"; sourceTree = SOURCE_ROOT; };
 		F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-farm-50.png"; sourceTree = SOURCE_ROOT; };
-		F7B13DF51FDA6600000A8DD5 /* icons8-compost-heap-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-compost-heap-50.png"; sourceTree = SOURCE_ROOT; };
 		F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-camera-50.png"; sourceTree = SOURCE_ROOT; };
 		F7B13DF71FDA6600000A8DD5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
-		F7B13DFD1FDA660D000A8DD5 /* plant1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plant1.jpeg; sourceTree = SOURCE_ROOT; };
-		F7B13DFE1FDA660D000A8DD5 /* plant4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plant4.jpeg; sourceTree = SOURCE_ROOT; };
 		F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = succulent.jpeg; sourceTree = SOURCE_ROOT; };
-		F7B13E001FDA660D000A8DD5 /* plant2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plant2.jpeg; sourceTree = SOURCE_ROOT; };
-		F7B13E011FDA660D000A8DD5 /* plant3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plant3.jpeg; sourceTree = SOURCE_ROOT; };
-		F7B13E021FDA660E000A8DD5 /* Vision+ML Example */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Vision+ML Example"; sourceTree = "<group>"; };
-		F7B13E091FDA6627000A8DD5 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = SOURCE_ROOT; };
-		F7B13E0A1FDA6627000A8DD5 /* empty.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empty.jpeg; sourceTree = SOURCE_ROOT; };
 		F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,20 +90,15 @@
 				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
 				F7B13DF11FDA65F2000A8DD5 /* Keras_Plants.mlmodel */,
 				F7B13DF61FDA6600000A8DD5 /* icons8-camera-50.png */,
-				F7B13DF51FDA6600000A8DD5 /* icons8-compost-heap-50.png */,
+				F79A01DF1FDA7DDB00B4BE1F /* GuidePageViewController.swift */,
 				F7B13DF41FDA65FF000A8DD5 /* icons8-farm-50.png */,
-				F7B13DFD1FDA660D000A8DD5 /* plant1.jpeg */,
-				F7B13E001FDA660D000A8DD5 /* plant2.jpeg */,
+				F79A01D91FDA71CE00B4BE1F /* images.jpeg */,
+				F79A01DD1FDA76DD00B4BE1F /* icons8-leaf-50.png */,
 				F7B13E0D1FDA6640000A8DD5 /* HomePageViewController.swift */,
-				F7B13E0A1FDA6627000A8DD5 /* empty.jpeg */,
-				F7B13E091FDA6627000A8DD5 /* home.png */,
-				F7B13E011FDA660D000A8DD5 /* plant3.jpeg */,
-				F7B13DFE1FDA660D000A8DD5 /* plant4.jpeg */,
-				F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */,
-				F7B13E021FDA660E000A8DD5 /* Vision+ML Example */,
-				F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */,
 				F7B13DF71FDA6600000A8DD5 /* logo.png */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
+				F7B13DF31FDA65FF000A8DD5 /* icons8-lotus-50.png */,
+				F7B13DFF1FDA660D000A8DD5 /* succulent.jpeg */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
 			);
 			path = "Vision+ML Example";
@@ -204,21 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B13DF81FDA6600000A8DD5 /* icons8-lotus-50.png in Resources */,
-				F7B13E081FDA660E000A8DD5 /* Vision+ML Example in Resources */,
 				113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */,
 				11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */,
 				11063F671EC0EECC0033EE6D /* Main.storyboard in Resources */,
-				F7B13E061FDA660E000A8DD5 /* plant2.jpeg in Resources */,
-				F7B13E041FDA660E000A8DD5 /* plant4.jpeg in Resources */,
-				F7B13E031FDA660E000A8DD5 /* plant1.jpeg in Resources */,
+				F79A01DA1FDA71CE00B4BE1F /* images.jpeg in Resources */,
 				F7B13DFC1FDA6600000A8DD5 /* logo.png in Resources */,
 				F7B13DFB1FDA6600000A8DD5 /* icons8-camera-50.png in Resources */,
-				F7B13DFA1FDA6600000A8DD5 /* icons8-compost-heap-50.png in Resources */,
-				F7B13E0B1FDA6627000A8DD5 /* home.png in Resources */,
 				F7B13E051FDA660E000A8DD5 /* succulent.jpeg in Resources */,
-				F7B13E0C1FDA6627000A8DD5 /* empty.jpeg in Resources */,
-				F7B13E071FDA660E000A8DD5 /* plant3.jpeg in Resources */,
 				F7B13DF91FDA6600000A8DD5 /* icons8-farm-50.png in Resources */,
+				F79A01DE1FDA76DE00B4BE1F /* icons8-leaf-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +210,7 @@
 			files = (
 				C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */,
 				F7B13E0E1FDA6640000A8DD5 /* HomePageViewController.swift in Sources */,
+				F79A01E01FDA7DDB00B4BE1F /* GuidePageViewController.swift in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				F7B13DF21FDA65F2000A8DD5 /* Keras_Plants.mlmodel in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,

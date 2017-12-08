@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
@@ -21,27 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c6w-Km-GeD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eYB-zA-4Rj">
+                                <rect key="frame" x="35" y="9" width="343" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blM-DG-2b9">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem systemItem="camera" id="UYo-sC-mV0"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="GJT-fh-at5"/>
-                                </items>
-                            </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="leading" secondItem="blM-DG-2b9" secondAttribute="leading" id="CiT-Ge-hl6"/>
-                            <constraint firstAttribute="trailing" secondItem="c6w-Km-GeD" secondAttribute="trailing" id="GbN-Lx-Jub"/>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="leading" secondItem="Ayu-RK-7DL" secondAttribute="leading" id="SWD-aV-r2P"/>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="bottom" secondItem="blM-DG-2b9" secondAttribute="bottom" id="Z1h-9a-zOg"/>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="centerY" secondItem="Ayu-RK-7DL" secondAttribute="centerY" id="bCI-lH-1V8"/>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="top" secondItem="Ayu-RK-7DL" secondAttribute="top" id="rww-9J-Njc"/>
-                            <constraint firstItem="c6w-Km-GeD" firstAttribute="trailing" secondItem="blM-DG-2b9" secondAttribute="trailing" id="vMy-mS-tuc"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0wO-3D-Cht"/>
                     </view>
                 </viewController>
@@ -50,4 +35,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo.png" width="200" height="200"/>
+    </resources>
 </document>
